@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 
 // Paginas Principais
 import Home from '../pages/Home/Home'
-import TelaAcolhido from '../pages/TelaAjudador/TelaAjudador'
+import TelaAcolhido from '../pages/TelaAcolhido/TelaAcolhido'
 import TelaAjudador from '../pages/TelaAjudador/TelaAjudador'
 
 export default props => (

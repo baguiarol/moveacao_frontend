@@ -14,21 +14,6 @@ const img_aleatoria_2x = `https://res.cloudinary.com/moveacao-com-br/image/uploa
 const img_aleatoria_mobile = `https://res.cloudinary.com/moveacao-com-br/image/upload/q_${quality}/v1578411436/sample.jpg`
 
 
-//const cartaz_ssd_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557499536/sorteio_ssd_mobile_xo2wci.png`
-
-const cartaz_minicurso_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458232/cartaz_minicurso_2x_lqqitm.png`
-
-const cartaz_minicurso_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557499934/minicurso_mobile_jgyhju.png`
-
-const code = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458245/code_jofkpn.jpg`
-const integrapet = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557539577/IntegraPET_f0flv2.jpg`
-
-//const doapet = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1577223926/DoacaoPET_duzt8c.jpg`
-
-
-
-
-
 
 export default props => (
     <React.Fragment>

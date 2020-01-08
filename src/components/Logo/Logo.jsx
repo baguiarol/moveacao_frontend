@@ -6,7 +6,7 @@ const logo = `https://res.cloudinary.com/moveacao-com-br/image/upload/v157841172
 export default props => {
     return (
         <div id="logoTop" className="logo">
-            <a href="/tela_acolhido">
+            <a href="/">
                 <img src={logo} alt={'logo'} />
             </a>
         </div>

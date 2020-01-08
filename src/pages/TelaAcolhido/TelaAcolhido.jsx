@@ -1,12 +1,14 @@
 import React from 'react'
 
 import { Navbar } from '../../components/Navbar'
-import { Footer } from '../../components/Footer'
+//import { Footer } from '../../components/Footer'
+import  Form  from '../../components/Form/Form'
 
 
 export default props => (
     <React.Fragment>
         <Navbar/>
-        <Footer/>
+        <Form/>
+
     </React.Fragment>
 )
