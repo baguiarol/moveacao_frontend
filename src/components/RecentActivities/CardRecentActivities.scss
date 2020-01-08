@@ -1,0 +1,46 @@
+.card-title {
+    margin-left: 10px;
+}
+
+.card-recent-activities {
+	//width: 400px;
+	height: 500px;
+	border: 1px solid black;
+	//border-color:blue;
+	//ackground-color: $--bg-card-recent-activities;
+	background-color:#E15A00;
+}
+
+
+.card-text{
+	font: Regular 21px/28px Segoe UI;
+	font-size: 20px;
+}
+
+.card-recent-activities .card-title {
+	color: black;
+	font: Bold;
+	font-size: 25px;
+}
+
+
+.card-recent-activities a {
+	color: white;
+	background-color: green;
+	position: relative;
+	margin-left: 30%;
+	margin-top: 50px;
+
+}
+
+.card-recent-activities a:hover {
+	color: pink;
+	background-color: brown;
+}
+
+.card-img-top {
+    padding: 15px;
+}
+.border-info {
+    border-color: black !important;
+}

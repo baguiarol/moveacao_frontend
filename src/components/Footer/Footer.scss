@@ -1,0 +1,28 @@
+.footer{
+	background-color: #E15A00;
+}
+footer ul li {
+	list-style: none;
+}
+
+.footer-logo {
+	width: 70%;
+}
+
+
+
+footer .grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-columns: 1fr;
+}
+
+footer .grid-container .right {
+	grid-column: 3;
+}
+
+.icon-social {
+	font-size: 1.2em;
+	transition: 500ms;
+}
+

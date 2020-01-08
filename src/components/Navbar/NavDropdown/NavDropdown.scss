@@ -1,0 +1,25 @@
+//@import '../../../main/variables.scss';
+
+.dropdown-menu {
+	background-color: white;
+}
+
+.menu .btn {
+	color: black;
+	box-shadow: none;
+	font-size: 90%;
+}
+
+.menu .btn:hover {
+	background-color: pink;
+}
+
+.dropdown:hover > .dropdown-menu {
+	display: block;
+	margin: 0;
+	font-size: 90%;
+}
+
+.dropdown-item:focus .btn {
+	background-color: pink;
+}

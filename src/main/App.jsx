@@ -1,0 +1,16 @@
+import 'bootstrap/dist/css/bootstrap.css'
+
+import React from 'react'
+import './App.scss'
+
+// Rotas
+import { BrowserRouter } from 'react-router-dom'
+import Routes from '../main/Routes'
+
+export default props => {
+    let app = <BrowserRouter>
+        <Routes />
+    </BrowserRouter>
+
+    return app
+}

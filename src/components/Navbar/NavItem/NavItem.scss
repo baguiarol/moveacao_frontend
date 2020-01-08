@@ -1,0 +1,32 @@
+
+
+.menu li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.menu li {
+	transition: 500ms;
+	font-size: 13pt;
+}
+
+.menu .active {
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+.menu li:hover {
+	color: white;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.menu div {
+	margin-right: 15px;
+}
+
+.menu li a {
+	padding-right: 5px;
+}

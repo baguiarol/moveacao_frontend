@@ -1,0 +1,33 @@
+
+.img {
+	height: calc(100vh - 61px);
+}
+
+.carousel-caption {
+	position: absolute;
+	color: white;
+	font-family: "Prompt", sans-serif;
+	font-style: italic;
+	width: 70%;
+	background-color: #00000091;
+	opacity: 1;
+	right: 5;
+	left: 0;
+	transition: 500ms;
+}
+
+.carousel-caption:hover {
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+.slide .btn {
+	background-color:#E15A00;
+	color: black;
+}
+
+.slide .btn:hover {
+	/*background-color: $--bg-btn-banner-hover;*/
+	background-color: #ffffff;
+	color: black;
+}
