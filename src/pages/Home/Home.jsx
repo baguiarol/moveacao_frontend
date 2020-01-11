@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.scss'
 
-import { Navbar } from '../../components/Navbar'
+import { Navbar, NavItem} from '../../components/Navbar'
 import { Footer } from '../../components/Footer'
 import { Banner, BannerItem } from '../../components/Banner'
 import { CardRecentActivities, RecentActivities } from '../../components/RecentActivities'
@@ -17,7 +17,9 @@ const img_aleatoria_mobile = `https://res.cloudinary.com/moveacao-com-br/image/u
 
 export default props => (
     <React.Fragment>
-        <Navbar/>
+       <Navbar>
+        <NavItem url="/tela_login" label="Login"/>
+        </Navbar>
         <Banner>
             <BannerItem active urlImgs={[
                 { src: img_aleatoria_2x, size: 768 },

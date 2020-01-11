@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.scss'
 
-import { NavItem} from './NavItem/NavItem'
+//import { NavItem} from './NavItem/NavItem'
 //import NavDropdown from '/home/brendaum/Área de Trabalho/siteartisan/src/components/Navbar/NavDrop/NavDrop.jsx'
 import {Logo} from '/home/brendaum/Área de Trabalho/moveacao_frontend/src/components/Logo'
 
@@ -17,11 +17,7 @@ export default props => (
             </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="menu navbar-nav ml-auto">
-                        <NavItem url="/" label="Login"/>
-                        <NavItem url="/" label = "Fazer Cadastro"/>
-                        {/*<NavDropdown label="" url="/">
-                            <NavItemDropdown url="/compdes" label="Computação Desplugada" />
-                        </NavDropdown> */}
+                    {props.children}
 
                     </ul>
                 </div>
